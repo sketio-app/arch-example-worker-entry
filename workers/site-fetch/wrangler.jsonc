@@ -1,0 +1,7 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "entry-site-fetch",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-20",
+  "kv_namespaces": [{ "binding": "PAGES", "id": "00000000000000000000000000000000" }]
+}

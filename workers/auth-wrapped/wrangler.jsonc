@@ -1,0 +1,16 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "entry-auth-wrapped",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-20",
+  // The id is a placeholder: run `wrangler d1 create entry-notes` and put yours here.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "entry-notes",
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  // Sign-in sessions. The id is a placeholder: run `wrangler kv namespace create SESSIONS`.
+  "kv_namespaces": [{ "binding": "SESSIONS", "id": "00000000000000000000000000000000" }]
+}
